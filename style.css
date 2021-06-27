@@ -31,11 +31,11 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
-.header-nav-desktop {
+.nav-desktop {
   display: none;
 }
 
-.header-nav-hamburger {
+.nav-hamburger {
   display: flex;
   justify-content: right;
   align-items: center;
@@ -44,7 +44,7 @@ body {
   color: #df5931;
 }
 
-.header-nav-mobile {
+.nav-mobile {
   display: none;
   flex-direction: column;
   text-decoration: none;
@@ -53,7 +53,7 @@ body {
 
 }
 
-.header-nav-mobile-link {
+.nav-mobile-link {
   display: flex;
   background-color: #FFB552;
   border: 1px solid #ce9143;
