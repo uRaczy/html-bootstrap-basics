@@ -5,6 +5,8 @@ const navMobile = document.querySelector('.nav-mobile');
 const navBars = document.querySelector('.nav-bars');
 const navX = document.querySelector('.nav-x');
 
+// Display and hide menu for mobile.
+// Change menu bars to X on click.
 hamburgerMenu.addEventListener('click', () => {
   if (navMobile.style.display === "flex") {
     navMobile.style.display = "none";

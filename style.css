@@ -7,6 +7,9 @@ body {
   background: linear-gradient(90deg, rgba(93,185,255,1) 0%, rgba(24,150,247,1) 20%, rgba(5,95,166,1) 38%, rgba(7,93,161,1) 50%, rgba(5,95,166,1) 62%, rgba(24,150,247,1) 80%, rgba(93,185,255,1) 100%);
 }
 
+/* ------ */
+/* HEADER */
+
 .header { 
   display: flex;
   justify-content: space-between;
@@ -62,4 +65,16 @@ body {
   text-decoration: none;
   font-weight: bold;
   color: rgb(204, 97, 9);
+}
+
+/* ---- */
+/* MAIN */
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.top-header h1, .top-header p {
+  text-align: center;
 }
